@@ -9,7 +9,7 @@ const commits = () => {
       <h2>A user writes in with the following problem: “On our team, GitHub commits by user janedoe@helloworld.com don&apos;t trigger any deployments. Commits by other users work fine. Other projects work fine. Help! What can we do to fix this?” How would you approach debugging this problem? What questions would you ask, either internally or of the user? Write a response which you would send back to this user.</h2>
       <ul className={styles.card_vert}>
         <li>
-          <p>Looking through Vercel&apos;s documentation I see that there is a KB article regarding <a className={styles.inbedded_link} href="https://vercel.com/support/articles/why-aren-t-commits-triggering-deployments-on-vercel" target='_blank'>issues with committing</a>.</p>
+          <p>Looking through Vercel&apos;s documentation I see that there is a KB article regarding <a className={styles.inbedded_link} href="https://vercel.com/support/articles/why-aren-t-commits-triggering-deployments-on-vercel" target='_blank' rel="noreferrer">issues with committing</a>.</p>
         </li>
         <li>
           <p>One of the points on this list looks to fit the issue being described by the customer, regarding private repos. The issue may be that the user is not part of the team that is assigned to this specific Vercel project.</p>
